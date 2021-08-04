@@ -1,0 +1,9 @@
+clear
+echo "---START INSTALL DAGPHP ENCODE TYPE---\n\n"
+echo "please no decode my script\n\n"
+sleep 3
+pkg i unzip
+unzip dagphp.package
+cp dagphp /data/data/com.termux/files/usr/bin
+chmod +x /data/data/com.termux/files/usr/bin/dagphp
+echo "\n\n\nSuccess Setup Start now\nTry it working or not:  dagphp test \n\n"
